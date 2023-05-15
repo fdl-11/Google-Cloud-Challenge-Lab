@@ -50,4 +50,6 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/USER/key.json"
 
 gcloud ml language analyze-entities --content="[text_from_lab]" > result.json
 
+cat result.json
+
 gsutil cp result.json [destination_from_lab]
